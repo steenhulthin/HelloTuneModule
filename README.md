@@ -21,5 +21,5 @@ The result
 
 The viewable result of running the code is that all the LEDs flash one and then the LEDs flash one by one from the first from the right to the last in an endless loop.
 
-I have added a [video of the result]() to youtube.
+I have added a [video of the result](http://youtu.be/WX2PESoJMvE) to youtube.
 
