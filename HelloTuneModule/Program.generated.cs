@@ -15,6 +15,12 @@ namespace HelloTuneModule {
     
     public partial class Program : Gadgeteer.Program {
         
+        /// <summary>The UsbClientSP module using socket 8 of the mainboard.</summary>
+        private Gadgeteer.Modules.GHIElectronics.UsbClientSP usbClientSP;
+        
+        /// <summary>The Tunes module using socket 6 of the mainboard.</summary>
+        private Gadgeteer.Modules.GHIElectronics.Tunes tunes;
+        
         /// <summary>This property provides access to the Mainboard API. This is normally not necessary for an end user program.</summary>
         protected new static GHIElectronics.Gadgeteer.FEZCerberus Mainboard {
             get {
@@ -37,6 +43,8 @@ namespace HelloTuneModule {
         }
         
         private void InitializeModules() {
+            this.usbClientSP = new GTM.GHIElectronics.UsbClientSP(8);
+            this.tunes = new GTM.GHIElectronics.Tunes(6);
         }
     }
 }

@@ -31,10 +31,35 @@
         </sockets>
       </mainboard>
     </gadgeteerModelHasGadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="8d733932-a1c6-4308-b352-59c584e329be">
+      <module Id="6be10902-ff54-4229-9167-0490844912be" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;UsbClientSP&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A UsbClientSP module&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.UsbClientSP&quot; HardwareVersion=&quot;1.0&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Modules\UsbClientSP\Resources\Image.jpg&quot; BoardWidth=&quot;27&quot; BoardHeight=&quot;27&quot; MinimumGadgeteerCoreVersion=&quot;2.42.500&quot; HelpUrl=&quot;http://www.ghielectronics.com/catalog/product/330&quot; UniqueId=&quot;169b5189-a8e9-4118-b440-2ad27a3b2865&quot; InstanceName=&quot;usbClientSP&quot; ModuleSuppliesPower=&quot;true&quot;&gt;&#xD;&#xA;  &lt;Power&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;3.3&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;5&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;  &lt;/Power&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GTM.GHIElectronics.UsbClientSP&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;0&quot; Left=&quot;22.5&quot; Top=&quot;13.5&quot; TypesLabel=&quot;D&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;D&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="usbClientSP" moduleType="Gadgeteer.Modules.GHIElectronics.UsbClientSP" moduleDefinitionId="169b5189-a8e9-4118-b440-2ad27a3b2865">
+        <socketUses>
+          <moduleHasSocketUses Id="d6246f90-ad03-4951-bcec-debf6617d57d">
+            <socketUse Id="44dc017f-12cf-4912-8685-2c4274de3643" label="D">
+              <socket>
+                <socketUseReferencesSocket Id="d26b38b1-6557-4b60-a9fd-0e31ad4bcf53">
+                  <socketMoniker Id="3d5ae970-0f6b-4e83-a72d-d8d41feb02c5" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+        </socketUses>
+      </module>
+    </gadgeteerModelHasGadgeteerHardware>
+    <gadgeteerModelHasGadgeteerHardware Id="93ad36e8-5055-4294-881d-da14d0fb961a">
+      <module Id="080bdf37-61c2-4483-9ab2-fccc1fd381ab" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;Tunes&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A Tunes module&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.Tunes&quot; HardwareVersion=&quot;1.0&quot; Image=&quot;C:\Program Files (x86)\GHI Electronics\GHI .NET Gadgeteer SDK\Modules\Tunes\Resources\Image.jpg&quot; BoardWidth=&quot;32&quot; BoardHeight=&quot;22&quot; MinimumGadgeteerCoreVersion=&quot;2.42.500&quot; HelpUrl=&quot;http://www.ghielectronics.com/catalog/product/434&quot; UniqueId=&quot;2ed8ee4c-4766-4fed-973a-8689085d1be7&quot; InstanceName=&quot;tunes&quot; ModuleSuppliesPower=&quot;false&quot;&gt;&#xD;&#xA;  &lt;Power&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;3.3&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0.015&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0.03&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;5&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;  &lt;/Power&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GTM.GHIElectronics.Tunes&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;90&quot; Left=&quot;14.5&quot; Top=&quot;18&quot; TypesLabel=&quot;P&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;P&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="tunes" moduleType="Gadgeteer.Modules.GHIElectronics.Tunes" moduleDefinitionId="2ed8ee4c-4766-4fed-973a-8689085d1be7">
+        <socketUses>
+          <moduleHasSocketUses Id="e3437447-46f4-45bd-af5d-589a62885010">
+            <socketUse Id="263486b0-a4a8-4224-b47b-59af36ddc8a2" label="P">
+              <socket>
+                <socketUseReferencesSocket Id="af31d0c0-248c-4f5f-84ff-3342e4deaab8">
+                  <socketMoniker Id="c5fcba9e-8d61-4820-9264-7f4fe43963b0" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
+          </moduleHasSocketUses>
+        </socketUses>
+      </module>
+    </gadgeteerModelHasGadgeteerHardware>
   </gadgeteerHardware>
-  <comments>
-    <gadgeteerModelHasComments Id="e11f419b-390c-4b29-92c9-62848d992606">
-      <comment Id="a1082877-8f7b-44ad-a23d-bc3d7174605f" text="Tip: To have the designer connect all modules for you, right-click the diagram, and then click 'Connect all modules'." />
-    </gadgeteerModelHasComments>
-  </comments>
 </gadgeteerModel>
